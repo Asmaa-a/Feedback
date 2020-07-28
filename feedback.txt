@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	*
+	{
+		box-sizing: border-box;
+	}
+	.header
+	{
+		background-color: #323232;
+		color: white;
+        text-align: center;
+        padding: 3px;
+	}
+	
+	.con
+	{
+		background-color: #dfdfdf;
+		padding: 16px
+	}
+	.footer
+	{
+		background-color: #3f3f3f;
+		color: white;
+		text-align: center;
+		padding: 5px;
+	}
+	label
+	{
+		background-color: black;
+		color: white;
+	}
+	textarea
+	{
+		height: 50px;
+		width: 30%;
+	}
+	.prog
+	{ 
+		color: #696969;
+
+	}
+	.text
+	{
+		font-family: serif;
+	}
+</style>
+</head>
+<body>
+<div class="header">
+<h3>Your Feedback</h3>
+</div>
+<div class="con">
+    <fieldset style="border:1px solid  #c8c8c8;margin: 1px 3px;">
+
+    	<legend style="text-align: center;">
+    	
+    <textarea style="height: 30px; width:75px;text-align: center;font-size: 14px;color: #666666;font-weight: bolder;font-size: 1.175em">Register</textarea>
+    	</legend>
+    	<form>
+	    <br>
+	    	<label> UserName:</label>
+	    	<input type="text" name="UserName:" placeholder=" Enter your name">
+	    	<br>
+	    	<br>
+	    	<label> E-mail:</label>
+	    	<input type="email" name="E-mail:" placeholder=" Enter your E-mail">
+	    	<br>
+	    	<br>
+	    	<div class="prog">
+	    	<label> Password:</label>
+	    	<input type="Password" name="Password:">
+	    	<input type="checkbox">Remember Me</div>
+	    	<br>
+	    	<label> Birthday</label>
+	    	<input type="date" name="Birthday">
+	    	<br>
+	    	<br>
+	    	<label> Gender</label>
+            <select name="Gender">
+	    	<option value="Male">Male</option> 
+	    	<option value="Female">Female</option>
+	    	</select>
+	    	<br>
+	    	<br>
+	    	<input type="button" value="Sign In">
+	    
+	    </form>
+    
+	    </fieldset>
+ </div>
+<div class="con">
+<fieldset style="border:1px solid  #c8c8c8;margin: 1px 3px; ">
+    	<legend style="text-align: center;">
+    	
+<textarea style="height: 30px;width:175px;text-align:center;font-size:13px;color:#666666;font-weight: bolder;font-size: 1.075em;">Your favourite Website</textarea> 
+    
+    	</legend>
+    	<div class="prog">
+<input type="radio" name="Website" value="Google" >Google
+<input type="radio" name="Website" value="Facebook">Facebook
+<input type="radio" name="Website" value="Twitter">Twitter
+<input type="radio" name="Website" value="Yahoo">Yahoo
+</div>
+</fieldset>
+</div>
+
+<div class="con">
+<fieldset style="border:1px solid  #c8c8c8;margin: 1px 3px;">
+    	<legend style="text-align: center;">
+    	
+    <textarea style="height: 30px; width:110px;text-align: center;font-size: 13px;color: #666666;font-weight:  ;font-size: 1.175em;">Your Message</textarea> 
+    
+    	</legend>
+<form>
+	<textarea>
+		
+	</textarea>
+</form>
+	</fieldset>
+</div>
+<div class="footer">
+CopyRight &copy; 2017 All Right to Web_Baidu &reg; Team
+</body>
+</html>
